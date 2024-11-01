@@ -1,0 +1,91 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdebd0;
+}
+
+/* Sidebar */
+aside {
+  width: 200px;
+  background-color: #097969;
+  color: #fdebd0;
+  position: fixed;
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #90bfc5;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fdebd0;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a.active {
+  color: #90bfc5;
+}
+
+/* Main Content */
+main {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 400;
+  color: #097969;
+}
+
+.subsection h3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #6e9296;
+}
+
+p {
+  font-size: 18px; /* Adjust for readability */
+  font-weight: 200;
+  color: #000000;
+  line-height: 1.6;
+}
