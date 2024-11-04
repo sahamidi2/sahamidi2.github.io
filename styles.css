@@ -15,7 +15,7 @@ body {
 /* Sidebar */
 aside {
   width: 200px;
-  background-color: #3275a8;
+  background-color: #1f557d;
   color: #fdebd0;
   position: fixed;
   height: 100vh;
@@ -40,7 +40,7 @@ aside {
 .profile h1 {
   font-size: 18px;
   font-weight: 300;
-  color: #021e33;
+  color: #90bfc5;
 }
 
 nav {
