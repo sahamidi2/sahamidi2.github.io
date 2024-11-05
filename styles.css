@@ -38,18 +38,20 @@ aside {
   object-fit: cover; /* Ensures proper aspect ratio */
 }
 
-.profile h1 {
-  font-size: 20px; /* Slightly larger font for the name */
+h1 { 
+  margin-bottom: 40px;
+  align-self: flex-start;
   font-weight: 300;
   color: #90bfc5;
+  margin-left: 40px;
+  
 }
 
 /* Navigation Links */
 nav {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Increased gap for better spacing */
-  margin-top: 20px;
+  gap: 15px; /* Increased gap for better spacing */
 }
 
 nav a {
