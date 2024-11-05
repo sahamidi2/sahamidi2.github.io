@@ -90,6 +90,13 @@ h2 {
   color: #6e9296;
 }
 
+/* Ensure links in headings look like headings */
+h3 a {
+  color: inherit; /* Use the color of the parent h3 */
+  font-weight: inherit; /* Use the font-weight of the parent h3 */
+  text-decoration: none; /* Remove underline for consistency */
+}
+
 p {
   font-size: 18px; /* Adjust for readability */
   font-weight: 200;
