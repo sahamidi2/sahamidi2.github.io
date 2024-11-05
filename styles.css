@@ -14,7 +14,7 @@ body {
 
 /* Sidebar */
 aside {
-  width: 200px;
+  width: 250px; /* Increased width for better alignment */
   background-color: #1f557d;
   color: #fdebd0;
   position: fixed;
@@ -27,26 +27,28 @@ aside {
 
 .profile {
   text-align: center;
+  margin-bottom: 20px; /* Added spacing below the profile section */
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 120px; /* Increased size for more prominence */
+  height: 120px;
   border-radius: 50%;
   margin-bottom: 10px;
-  object-fit: cover;
+  object-fit: cover; /* Ensures proper aspect ratio */
 }
 
 .profile h1 {
-  font-size: 18px;
+  font-size: 20px; /* Slightly larger font for the name */
   font-weight: 300;
   color: #90bfc5;
 }
 
+/* Navigation Links */
 nav {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px; /* Increased gap for better spacing */
   margin-top: 20px;
 }
 
@@ -54,20 +56,24 @@ nav a {
   text-decoration: none;
   color: #fdebd0;
   font-weight: 400;
-  font-size: 16px;
-  transition: color 0.3s;
+  font-size: 18px; /* Slightly larger font size */
+  padding: 10px 15px; /* Added padding for more spacing around the text */
+  transition: color 0.3s, text-decoration 0.3s;
+  border-radius: 5px; /* Rounded corners for a softer look */
 }
 
 nav a.active {
   color: #90bfc5;
+  font-weight: bold; /* Make active link bold */
 }
 
 nav a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
+
 /* Main Content */
 main {
-  margin-left: 200px;
+  margin-left: 250px; /* Matches sidebar width for proper alignment */
   padding: 20px;
 }
 
