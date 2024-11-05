@@ -62,6 +62,9 @@ nav a.active {
   color: #90bfc5;
 }
 
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
 /* Main Content */
 main {
   margin-left: 200px;
