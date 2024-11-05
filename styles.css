@@ -59,9 +59,6 @@ nav a {
   color: #fdebd0;
   font-weight: 400;
   font-size: 18px; /* Slightly larger font size */
-  padding: 10px 15px; /* Added padding for more spacing around the text */
-  transition: color 0.3s, text-decoration 0.3s;
-  border-radius: 5px; /* Rounded corners for a softer look */
 }
 
 nav a.active {
