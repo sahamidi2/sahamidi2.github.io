@@ -63,7 +63,6 @@ nav a {
 }
 
 nav a.active {
-  color: #90bfc5;
   font-weight: bold; /* Make active link bold */
 }
 
