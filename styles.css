@@ -86,12 +86,12 @@ h2 {
 .subsection h3 {
   font-weight: 400;
   color: #6e9296;
+  font-size: 2em;
 }
 
 /* Ensure links in h3 are styled like h3 */
 h3 a {
   color: #6e9296; /* Same color as h3 for Working Papers */
-  font-size: 2em; /* Same font size as h3 */
   font-weight: 400; /* Same font weight as h3 */
   text-decoration: none; /* No underline by default */
 }
